@@ -93,20 +93,24 @@ h1 {
 
 .img1 {
  background: linear-gradient((rgba(0,0,0,0.50)), rgba(0,0,0,0.10));
- background-image: url(Rafael-Lopez-Digital-Marketing-1.jpg);
+ /*background-image: url(Rafael-Lopez-Digital-Marketing-1.jpg);*/
+ background-color: black;
 }
 
 .img2 {
  background: linear-gradient((rgba(0,0,0,0.50)), rgba(0,0,0,0.10));
- background-image: url(Rafael-Lopez-Digital-Marketing-2.jpg);
+ /*background-image: url(Rafael-Lopez-Digital-Marketing-2.jpg);*/
+ background-color: black;
 }
 .img3 {
   background: linear-gradient((rgba(0,0,0,0.50)), rgba(0,0,0,0.10));
-  background-image: url(Rafael-Lopez-Digital-Marketing-3.jpg);
+  /*background-image: url(Rafael-Lopez-Digital-Marketing-3.jpg);*/
+  background-color: black;
 }
 .img4 {
   background: linear-gradient((rgba(0,0,0,0.50)), rgba(0,0,0,0.10));
-  background-image: url(Rafael-Lopez-Digital-Marketing-4.jpg);
+/*  background-image: url(Rafael-Lopez-Digital-Marketing-4.jpg);*/
+  background-color: black;
 }
 
 .box{
