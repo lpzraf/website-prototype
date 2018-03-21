@@ -1,0 +1,84 @@
+.nav {
+    list-style-type: none;
+    margin: 0 auto;
+  	padding: 0;
+  	width: 75%;
+  	height: 5.74em;
+    overflow: hidden;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;}
+
+.nav > li {
+float: left;
+padding-top: 25px;}
+
+.nav > li > a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: black;}
+
+.nav > li > a:hover {
+	color: #c1c1c1;} 
+
+body{
+	background-color: #F9FF00;
+	background-image: url(lines5.jpg);}
+
+h1 {
+  	color: black;
+  	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  	font-size: 100px;
+   /* letter-spacing: 0.02em;*/
+  	margin: 0 auto;
+    padding: 0;
+    width: 75%;
+    height: 1.74em;
+    /*text-shadow: 3px -1px 0px #FF3DB1*/
+  }
+
+#firstline {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid;
+    margin: 0 auto;
+  	padding: 0;
+  	width: 75%;
+  	height: 1.74em;}
+
+#secondline {
+    display: block;
+    height: 150px;
+    border: 0;
+    border-top: 1px solid;
+    margin: 1em 0;
+    padding: 0;
+    width: 35%;}
+
+p {
+  	color: #FF3DB1;
+  	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  	font-size: 20px;
+  	margin: 0 auto;
+    letter-spacing: 0.02em;
+/*    line-height: 1.26em;
+*/    padding: 10;
+    padding-top: 10px;
+    width: 95%;
+    height: 1.74em;}
+
+#box {
+    border: 10px solid black;
+    padding: 15px;
+    margin: 0 auto;
+    width: 75%;
+    height: 13.74em;
+    background: #ececec;
+    background-clip: content-box;}
+
+#fsizecolor {
+	font-size: 15px;
+	color: black;}
+
+  
+
