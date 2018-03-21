@@ -58,21 +58,26 @@ h1 {
 p {
   	color: #FF3DB1;
   	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-  	font-size: 20px;
+  	font-size: 78px;
   	margin: 0 auto;
     letter-spacing: 0.02em;
-/*    line-height: 1.26em;
-*/    padding: 10;
+    padding: 10;
     padding-top: 10px;
     width: 95%;
-    height: 1.74em;}
+    height: 1.74em;
+
+  /*    line-height: 1.26em;
+*/    }
 
 #box {
     border: 10px solid black;
     padding: 15px;
     margin: 0 auto;
     width: 70%;
-    height: 13.74em;
+    /*width: 75%;*/
+    /*height: 13.74em;*/
+    height: 8em;
+    text-align: left;
     background: #ececec;
     background-clip: content-box;}
 
