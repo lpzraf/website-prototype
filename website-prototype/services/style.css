@@ -23,16 +23,21 @@ padding-top: 25px;}
 body{
 background-color: #F9FF00;
 background-image: url("lines5.jpg");
-background-repeat: no-repeat;}
+background-repeat: no-repeat;
+padding-bottom: 50px;}
 
 h1 {
 	color: black;
 	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	font-size: 100px;
-	margin: 0 auto;
+	/*margin: 0 auto;
   	padding-top: 90px;
   	width: 75%;
-  	height: 1.74em;}
+  	height: 1.74em;*/
+    margin: 0 auto;
+    padding: 0;
+    width: 75%;
+    height: 1.74em;}
 
 #firstline {
     display: block;
@@ -94,35 +99,36 @@ h1 {
 .img1 {
  background: linear-gradient((rgba(0,0,0,0.50)), rgba(0,0,0,0.10));
  /*background-image: url(Rafael-Lopez-Digital-Marketing-1.jpg);*/
- background-color: black;
+ background-color: #ececec;
 }
 
 .img2 {
  background: linear-gradient((rgba(0,0,0,0.50)), rgba(0,0,0,0.10));
  /*background-image: url(Rafael-Lopez-Digital-Marketing-2.jpg);*/
- background-color: black;
+ background-color: #ececec;
 }
 .img3 {
   background: linear-gradient((rgba(0,0,0,0.50)), rgba(0,0,0,0.10));
   /*background-image: url(Rafael-Lopez-Digital-Marketing-3.jpg);*/
-  background-color: black;
+  background-color: #ececec;
 }
 .img4 {
   background: linear-gradient((rgba(0,0,0,0.50)), rgba(0,0,0,0.10));
 /*  background-image: url(Rafael-Lopez-Digital-Marketing-4.jpg);*/
-  background-color: black;
+  background-color: #ececec;
 }
 
 .box{
 position: absolute;
 width: inherit;
 height: inherit;
+border: 7px solid black;
 }
 
 .box h3 {
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-  font-weight: 400;
-  color: #FFF;
+  font-weight: 500;
+  color: #black;
   font-size: 42px;
   margin: 0 30px;
   padding: 100px 0 0 0;

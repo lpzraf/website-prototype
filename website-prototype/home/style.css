@@ -1,0 +1,74 @@
+.nav {
+    list-style-type: none;
+    margin: 0 auto;
+  	padding: 0;
+  	width: 75%;
+  	height: 5.74em;
+    overflow: hidden;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;}
+
+.nav > li {
+    float: left;
+    padding-top: 25px;}
+
+.nav > li > a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: black;}
+
+.nav > li > a:hover {
+	  color: #c1c1c1;} 
+
+body{
+  	background-color: #F9FF00;
+/*  	background-image: url(lines5.jpg);
+    background-position: top right;*/
+}
+
+#logo{
+/*  background-image: url(rl-logo-2.png);*/
+    background-repeat: no-repeat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;}
+
+h1 {
+  	color: black;
+  	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  	font-size: 100px;
+   /* letter-spacing: 0.02em;*/
+  	margin: 0 auto;
+    padding: 0;
+    width: 75%;
+    height: 1.74em;
+    /*text-shadow: 3px -1px 0px #FF3DB1*/
+  }
+  h3 {
+    color: black;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 40px;
+   /* letter-spacing: 0.02em;*/
+    margin: 0 auto;
+    /*padding: 0;*/
+    padding-bottom: 90px;
+    width: 75%;
+    height: 1.74em;
+    /*text-shadow: 3px -1px 0px #FF3DB1*/
+  }
+
+#firstline {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid;
+    margin: 0 auto;
+  	padding: 0;
+  	width: 75%;
+  	height: 1.74em;}
+
+
+
+  
+

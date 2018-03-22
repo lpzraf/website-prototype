@@ -29,8 +29,12 @@ h1 {
   	color: black;
   	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   	font-size: 100px;
-  	margin: 0 auto;
+  /*	margin: 0 auto;
     padding-top: 90px;
+    width: 75%;
+    height: 1.74em;*/
+    margin: 0 auto;
+    padding: 0;
     width: 75%;
     height: 1.74em;}
 
