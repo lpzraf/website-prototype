@@ -85,5 +85,31 @@ p {
 	font-size: 15px;
 	color: black;}
 
+  /*Tablet*/
+@media all and (max-width: 768px)
+{ body{
+    background-color: pink;
+    background-image: none;}
+    
+  p{
+   font-size: 38px;}
+
+}
+
+  /*Mobile*/
+@media all and (max-width: 320px)
+{  body{
+    background-color: pink;
+    background-image: none;}
+    p{
+   font-size: 14px;}
+}
+
+/*Bigger Size*/
+@media all and (min-width: 1500px)
+{ body{
+    background-color: pink;
+    background-image: none;}
+
   
 

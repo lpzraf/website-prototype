@@ -141,17 +141,19 @@ border: 7px solid black;
   }
 
 
-/*
-If I write text use below:
-p {
-	color: #FF3DB1;
-	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-	font-size: 20px;
-	margin: 0 auto;
-  	padding: 10;
-  	padding-top: 10px;
-  	width: 95%;
-  	height: 1.74em;}*/
+/*Tablet & Mobile*/
+@media all and (max-width: 850px)
+{  body{background-color: pink;
+background-image: none;}
+  
+
+}
+
+/*Bigger Size*/
+@media all and (min-width: 1500px)
+{ body{
+    background-color: pink;
+    background-image: none;}
 
 
 

@@ -68,6 +68,18 @@ h1 {
   	width: 75%;
   	height: 1.74em;}
 
+/*Tablet & Mobile*/
+@media all and (max-width: 850px)
+{  body{background-color: pink;}
+  h3 {padding-top: 90px;}
+
+}
+
+/*Bigger Size*/
+@media all and (min-width: 1500px)
+{ body{
+    background-color: pink;
+    background-image: none;}
 
 
   
