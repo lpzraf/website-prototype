@@ -46,35 +46,49 @@ h1 {
   	width: 75%;
   	height: 1.74em;}
 
-#secondline {
-    display: block;
-    height: 150px;
-    border: 0;
-    border-top: 1px solid;
-    margin: 1em 0;
-    padding: 0;
-    width: 35%;}
 
 p {
-  	color: #FF3DB1;
+  	color: ##ececec;
   	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-  	font-size: 20px;
+  	font-size: 16px;
   	margin: 0 auto;
     letter-spacing: 0.02em;
-/*    line-height: 1.26em;
-*/    padding: 10;
+    padding: 10;
     padding-top: 10px;
     width: 95%;
     height: 1.74em;}
 
-#box {
+/*#box {
     border: 10px solid black;
     padding: 15px;
     margin: 0 auto;
     width: 70%;
     height: 13.74em;
     background: #ececec;
-    background-clip: content-box;}
+    background-clip: content-box;}*/
+
+#box {
+  /*  border: 10px solid black;
+    padding: 15px;
+    margin: 0 auto;
+    width: 70%;
+    height: 13.74em;
+    background: #ececec;
+    background-clip: content-box;*/
+    border-radius: 45px;
+    border: 11px solid black;
+    background: #FF3DB1;
+    background-clip: content-box;
+    position: fixed;
+    text-align: center;
+    top: 60%;
+    left: 50%;
+    width: 55%;
+    height: 290px;
+    padding: 16px;
+    transform: translate(-50%, -50%);
+}}
+
 
 #fsizecolor {
 	font-size: 13px;

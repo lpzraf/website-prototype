@@ -8,8 +8,8 @@
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;}
 
 .nav > li {
-float: left;
-padding-top: 25px;}
+    float: left;
+    padding-top: 25px;}
 
 .nav > li > a {
     display: block;
@@ -18,23 +18,20 @@ padding-top: 25px;}
     color: black;}
 
 .nav > li > a:hover {
-	color: #c1c1c1;} 
+	  color: #c1c1c1;} 
 
 body{
-	background-color: #F9FF00;
-	background-image: url(lines5.jpg);}
+	  background-color: #F9FF00;
+	  background-image: url(lines5.jpg);}
 
 h1 {
   	color: black;
   	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   	font-size: 100px;
-   /* letter-spacing: 0.02em;*/
   	margin: 0 auto;
     padding: 0;
     width: 75%;
-    height: 1.74em;
-    /*text-shadow: 3px -1px 0px #FF3DB1*/
-  }
+    height: 1.74em;}
 
 #firstline {
     display: block;
@@ -56,34 +53,33 @@ h1 {
     width: 35%;}
 
 p {
-  	color: #FF3DB1;
+  	color: black;
   	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-  	font-size: 78px;
+  	font-size: 48px;
   	margin: 0 auto;
     letter-spacing: 0.02em;
     padding: 10;
     padding-top: 10px;
     width: 95%;
-    height: 1.74em;
+    height: 1.74em;}
 
-  /*    line-height: 1.26em;
-*/    }
+#box{
+    border-radius: 45px;
+    border: 11px solid black;
+    background: #FF3DB1;
+    background-clip: content-box;
+    position: fixed;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    width: 45%;
+    padding: 16px;
+    transform: translate(-50%, -50%);}
 
-#box {
-    border: 10px solid black;
-    padding: 15px;
-    margin: 0 auto;
-    width: 62%;
-    /*width: 75%;*/
-    /*height: 13.74em;*/
-    height: 8em;
-    text-align: left;
-    background: #ececec;
-    background-clip: content-box;}
 
 #fsizecolor {
-	font-size: 15px;
-	color: black;}
+	  font-size: 15px;
+	  color: black;}
 
   /*Tablet*/
 @media all and (max-width: 768px)
@@ -92,18 +88,15 @@ p {
     background-image: none;}
     
   p{
-   font-size: 38px;}
-
-}
+   font-size: 28px;}}
 
   /*Mobile*/
 @media all and (max-width: 320px)
 {  body{
-    background-color: pink;
-    background-image: none;}
-    p{
-   font-size: 14px;}
-}
+  background-color: pink;
+  background-image: none;}
+  p{
+  font-size: 14px;}}
 
 /*Bigger Size*/
 @media all and (min-width: 1500px)

@@ -8,8 +8,8 @@
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;}
 
 .nav > li {
-float: left;
-padding-top: 25px;}
+    float: left;
+    padding-top: 25px;}
 
 .nav > li > a {
     display: block;
@@ -29,10 +29,6 @@ h1 {
   	color: black;
   	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   	font-size: 100px;
-  /*	margin: 0 auto;
-    padding-top: 90px;
-    width: 75%;
-    height: 1.74em;*/
     margin: 0 auto;
     padding: 0;
     width: 75%;
@@ -48,25 +44,21 @@ h1 {
   	width: 75%;
   	height: 1.74em;}
 
-
 .gallery{
   margin: 10px 50ps;
   padding-left: 190px;
   padding-right: 80px;
-  padding-bottom: 50px;
-}
+  padding-bottom: 50px;}
 
 .gallery img{
   width: 230px;
   padding: 5px;
   filter: grayscale(100%);
-  transition: 1s;
-}
+  transition: 1s;}
 
 .gallery img:hover{
   filter: grayscale(0);
-  transform: scale(1.1);
-}
+  transform: scale(1.1);}
 
 
 
